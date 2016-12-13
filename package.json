@@ -1,0 +1,23 @@
+{
+  "name": "lcd-16x2-dht-22",
+  "version": "1.0.0",
+  "description": "Display readings from a DHT22 on a 16x2 LCD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickmomrik/lcd-16x2-dht-22.git"
+  },
+  "author": "Nick Momrik",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nickmomrik/lcd-16x2-dht-22/issues"
+  },
+  "homepage": "https://github.com/nickmomrik/lcd-16x2-dht-22#readme",
+  "dependencies": {
+    "lcd": "1.1.4",
+    "node-dht-sensor": "0.0.32"
+  }
+}
