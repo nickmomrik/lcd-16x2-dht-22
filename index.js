@@ -27,11 +27,12 @@ lcd.on('ready', function() {
 			if (!err) {
 				var temp = (temperature * 1.8 + 32).toFixed(1);
 				var hum  = humidity.toFixed(1);
+				var date = new Date().toISOString().replace(/T/, ' ').replace(/\..+/, '');
 
-				printRow('    temp: ' + temp + 'F', 0, function() {
-					printRow('humidity: ' + hum + '%', 1);
+				printRow(date, 0, function() {
+					printRow(temp + 'F - ' + hum + '%', 1);
 				});
 			}
 		});
-	}, 2000 );
+	}, 100000 );
 });
