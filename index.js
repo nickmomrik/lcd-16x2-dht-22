@@ -40,7 +40,5 @@ function doSensorRead() {
 lcd.on('ready', function() {
 	doSensorRead();
 
-	// Can only read from the DHT22 every 2 seconds.
-	// Using 15s here reads on average around once a minute, sometimes more, sometimes less.
-	setInterval(doSensorRead, 15000);
+	setInterval(doSensorRead, 60000);
 });
