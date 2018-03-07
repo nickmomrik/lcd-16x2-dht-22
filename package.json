@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/nickmomrik/lcd-16x2-dht-22#readme",
   "dependencies": {
-    "lcd": "1.1.4",
-    "moment": "2.17.1",
-    "node-dht-sensor": "0.0.32"
+    "lcd": "2.0.2",
+    "moment": "2.21.0",
+    "node-dht-sensor": "0.0.34"
   }
 }
